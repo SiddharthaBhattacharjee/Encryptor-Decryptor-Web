@@ -4,29 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Encriptor</title>
+    <title>Encryptor-Decryptor</title>
+    <link rel="icon" href="./images/icon.png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <canvas id='Matrix'></canvas>
     <script src="./matrix.js"></script>
-    <div id="heading"><span style="background-color: rgba(0, 0, 0, 0.612);">Encript Your Message</span></div>
+    <div id="heading"><span style="background-color: rgba(0, 0, 0, 0.612);">Encrypt Your Messages</span></div>
     <section id="prog">
         <div id="encD">
-            <div id="text1"><span style="background-color: rgba(0, 0, 0, 0.612);">Encription</span></div>
+            <div id="text1"><span style="background-color: rgba(0, 0, 0, 0.612);">Encryptor</span></div>
             <div id="box1">
                 <div class="contain" style="margin-left: 20px;"><div>Enter Your Message :</div> <textarea id="msg"rows="5" spellcheck="false"></textarea></div>
                 <div class="contain" style="margin-left: 20px;"><div>Enter a Key Phrase : </div> <input type="text" id="key"></div>
-                <div class="contain" style="margin-left: 20px;"><div>Encripted Messagee : </div> <textarea readonly id="display" value=""></textarea></div>
+                <div class="contain" style="margin-left: 20px;"><div>Encrypted Messagee : </div> <textarea readonly id="display" value=""></textarea></div>
                 <div style="text-align: center; margin-top: 20px;"><button id="encB" onclick="encrypt()">Encrypt</button></div>
             </div>
         </div>
         <div id="decD">
-            <div id="text2"><span style="background-color: rgba(0, 0, 0, 0.612);">Decription</span></div>
+            <div id="text2"><span style="background-color: rgba(0, 0, 0, 0.612);">Decryptor</span></div>
             <div id="box2">
-                <div class="contain"><div>Enter Encripted Message :</div> <textarea id="msg2"rows="5" spellcheck="false"></textarea></div>
+                <div class="contain"><div>Enter Encrypted Message :</div> <textarea id="msg2"rows="5" spellcheck="false"></textarea></div>
                 <div class="contain"><div style="margin-left: 15.6px;">  Enter Your Key Phrase :</div> <input type="text" id="key2"></div>
-                <div class="contain"><div style="margin-left: 40px;">Decripted Messagee : </div> <textarea readonly id="display2" value=""></textarea></div>
+                <div class="contain"><div style="margin-left: 40px;">Decrypted Messagee : </div> <textarea readonly id="display2" value=""></textarea></div>
                 <div style="text-align: center; margin-top: 20px;"><button id="denB" onclick="decrypt()">Decrypt</button></div>
             </div>
         </div>
