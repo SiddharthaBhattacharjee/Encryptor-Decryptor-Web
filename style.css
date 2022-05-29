@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#heading{
+    text-align: center;
+    font-family: "permanent marker", cursive;
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+
+#prog{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top : 40px;
+}
+
+#text1, #text2{
+    color: white;
+    font-family: "permanent marker", cursive;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#box1{
+    background-color: rgba(255, 55, 0, 0.836);
+    width: 500px;
+    height: 360px;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+#box2{
+    background-color: rgba(21, 255, 0, 0.82);
+    width: 500px;
+    height: 360px;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+#msg{
+    resize: none;
+    margin: 10px;
+    width: 260px;
+    height: 100px;
+    font-family: monospace;
+}
+
+#key{
+    margin: 10px;
+    font-family: monospace;
+    width: 255px;
+}
+
+.contain{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+#encB{
+    border-radius: 8px;
+    font-size: 18px;
+    background-color: rgba(116, 255, 47, 0.932);
+}
+
+#msg2{
+    resize: none;
+    margin: 10px;
+    width: 260px;
+    height: 100px;
+    font-family: monospace;
+}
+
+#key2{
+    margin: 10px;
+    font-family: monospace;
+    width: 255px;
+}
+
+#denB{
+    border-radius: 8px;
+    font-size: 18px;
+    background-color: rgba(255, 68, 47, 0.932);
+}
+
+#Matrix{
+    position: fixed;
+    width : 100%;
+    height : 100vh;
+    z-index: -1;
+}
+
+#display, #display2{
+    resize: none;
+    margin: 10px;
+    width: 260px;
+    height: 100px;
+    font-family: monospace;
+}
+
+#snackbar {
+    visibility: hidden; 
+    min-width: 250px; 
+    margin-left: -125px; 
+    background-color: #333; 
+    color: #fff; 
+    text-align: center; 
+    border-radius: 2px; 
+    padding: 16px; 
+    position: fixed; 
+    z-index: 1; 
+    left: 50%; 
+    bottom: 30px; 
+    font-family: monospace;
+  }
+  
+
+  #snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+
+  @-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+
+
+
