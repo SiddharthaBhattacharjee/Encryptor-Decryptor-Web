@@ -150,5 +150,34 @@ body{
     to {bottom: 0; opacity: 0;}
   }
 
+  @media screen and (max-width: 1200px) {
+    #prog{
+        flex-direction: column;
+    }
+    #decD{
+        margin-top: 20px;
+    }
+  }
 
+  @media screen and (max-width: 600px) {
+    #prog{
+        flex-direction: column;
+    }
+    #decD{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #text1 , #text2 {
+        font-size: 18px;
+    }
+    #box1 , #box2 {
+        width : 300px;
+    }
+    .contain{
+        font-size: 12px;
+    }
+    #msg, #msg2, #key, #key2, #display, #display2{
+        width: 140px;
+    }
+  }
 
